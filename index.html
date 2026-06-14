@@ -10,9 +10,10 @@
 
 <header class="hero">
     <div class="hero-content">
-        <span class="hero-label">Software Engineering Student</span>
+        <span class="hero-top">PORTFOLIO</span>
         <h1>전재호</h1>
-        <p>Web · Mobile · Information Security</p>
+        <span class="hero-label">Software Engineering Student</span>
+        <p>Web Developer · Mobile Developer · Information Security</p>
         <a class="hero-button" href="#profile">View Profile</a>
     </div>
 </header>
@@ -21,6 +22,8 @@
     <ul>
         <li><a href="#profile">Profile</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#career">Career</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#project">Project</a></li>
@@ -30,12 +33,21 @@
 
 <section id="profile" class="reveal">
     <h2>Profile</h2>
-    <div class="card">
-        <p><strong>이름</strong> 전재호</p>
-        <p><strong>생년월일</strong> 2003.08.26</p>
-        <p><strong>전공</strong> 서일대학교 소프트웨어공학과</p>
-        <p><strong>병역</strong> 해병대 병장 만기전역</p>
-        <p><strong>복무기간</strong> 2023.03.27 ~ 2024.09.26</p>
+    <div class="card profile-grid">
+        <div>
+            <p><strong>이름</strong> 전재호</p>
+            <p><strong>생년월일</strong> 2003.08.26</p>
+            <p><strong>연락처</strong> 010-9192-3072</p>
+            <p><strong>이메일</strong> <a href="mailto:dkfltn200@naver.com">dkfltn200@naver.com</a></p>
+        </div>
+        <div>
+            <p><strong>주소</strong> 서울특별시 중랑구</p>
+            <p><strong>학교</strong> 서일대학교</p>
+            <p><strong>학과</strong> 소프트웨어공학과</p>
+            <p><strong>학번</strong> 202207279</p>
+            <p><strong>병역</strong> 해병대 병장 만기전역</p>
+            <p><strong>복무기간</strong> 2023.03.27 ~ 2024.09.26</p>
+        </div>
     </div>
 </section>
 
@@ -44,7 +56,7 @@
     <div class="card education-card">
         <div>
             <h3>서일대학교</h3>
-            <p>소프트웨어공학과 재학</p>
+            <p>소프트웨어공학과 재학(2022.03 ~ )</p>
         </div>
         <div>
             <h3>송양고등학교</h3>
@@ -53,6 +65,39 @@
     </div>
 </section>
 
+<section id="career" class="reveal">
+    <h2>Career</h2>
+
+    <div class="card">
+        <h3>IT 관련 경력</h3>
+
+        <p>
+            현재 IT 관련 실무 경력은 없습니다.
+        </p>
+
+        <p>
+            정보통신공학과에서 소프트웨어공학과로 전과한 후
+            Flutter와 React를 중심으로 개발 역량을 향상시키고 있으며,
+            캡스톤디자인 프로젝트를 통해 실무와 유사한 개발 경험을
+            쌓고 있습니다.
+        </p>
+    </div>
+</section>
+
+<section id="certifications" class="reveal">
+    <h2>Certifications</h2>
+
+    <div class="card cert-grid">
+        <div class="cert-card">
+            <h3>네트워크관리사 2급</h3>
+            <p>취득</p>
+        </div>
+        <div class="cert-card">
+            <h3>운전면허 1종 보통</h3>
+            <p>취득</p>
+        </div>
+    </div>
+</section>
 <section id="skills" class="reveal">
     <h2>Technical Skills</h2>
 
@@ -85,27 +130,50 @@
         <div class="skill-title"><span>Python</span><span>65%</span></div>
         <div class="bar"><div class="fill" data-width="65%"></div></div>
     </div>
+
+    <div class="skill">
+        <div class="skill-title"><span>Git / GitHub</span><span>65%</span></div>
+        <div class="bar"><div class="fill" data-width="65%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-title"><span>Node.js</span><span>65%</span></div>
+        <div class="bar"><div class="fill" data-width="65%"></div></div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-title"><span>AWS S3</span><span>60%</span></div>
+        <div class="bar"><div class="fill" data-width="60%"></div></div>
+    </div>
 </section>
 
 <section id="about" class="reveal">
-    <h2>About Me</h2>
+
+<h2>About Me</h2>
+
+<div class="about-grid">
+    <div class="card about-card">
+        <h3>성격의 장단점</h3>
+        <p>저의 가장 큰 장점은 문제를 끝까지 해결하려는 끈기입니다. 개발 과정에서 오류가 발생하면 원인을 분석하고 공식 문서를 참고하며 해결하려고 노력합니다.</p>
+        <p>반면 하나의 문제를 깊게 파고드는 성향으로 인해 작업 시간이 길어질 때가 있습니다. 이를 개선하기 위해 최근에는 전체 구조를 먼저 설계한 후 세부 기능을 구현하는 방식을 적용하고 있습니다.</p>
+    </div>
 
     <div class="card about-card">
-        <div>
-            <h3>문제를 끝까지 해결하는 개발자</h3>
-            <p>
-                오류가 발생했을 때 원인을 분석하고 이해하려고 노력합니다.
-                공식 문서를 참고하며 문제를 해결하는 습관을 가지고 있습니다.
-            </p>
-        </div>
-        <div>
-            <h3>새로운 분야에 도전하는 개발자</h3>
-            <p>
-                정보통신공학과에서 소프트웨어공학과로 전과 후
-                Flutter, React를 중심으로 개발 역량을 키워왔습니다.
-            </p>
-        </div>
+        <h3>학창생활</h3>
+        <p>정보통신공학과에서 네트워크와 프로그래밍 기초를 학습하였으며, 개발에 대한 관심이 커져 소프트웨어공학과로 전과하였습니다. 현재는 Flutter와 React를 중심으로 웹 및 모바일 개발 기술을 학습하고 있습니다.</p>
     </div>
+
+    <div class="card about-card">
+        <h3>지원동기</h3>
+        <p>사용자의 요구사항을 실제 서비스로 구현하는 과정에 큰 흥미를 느껴 개발자를 목표로 하게 되었습니다. 직접 만든 기능이 사용자에게 편리함을 제공하는 경험이 개발을 지속하게 하는 원동력이 되고 있습니다.</p>
+    </div>
+
+    <div class="card about-card">
+        <h3>입사 후 포부</h3>
+        <p>지속적인 학습과 프로젝트 경험을 통해 개발 역량을 향상시키고, 정보보안 분야에 대한 전문성을 함께 갖춘 개발자로 성장하고자 합니다.</p>
+    </div>
+</div>
+
 </section>
 
 <section id="project" class="reveal">
@@ -127,23 +195,70 @@
             </ul>
 
             <h4>기술스택</h4>
-            <p>React, Vite, Node.js, OpenAI API, AWS S3</p>
+            <p>
+                <span class="badge">React</span>
+                <span class="badge">Vite</span>
+                <span class="badge">Node.js</span>
+                <span class="badge">OpenAI API</span>
+                <span class="badge">AWS S3</span>
+                <span class="badge">GitHub</span>
+            </p>
 
             <h4>핵심 기능</h4>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h5>AI 프로젝트 생성</h5>
+                    <p>자연어를 분석해 웹/앱 코드를 자동으로 생성합니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h5>AWS S3 저장</h5>
+                    <p>생성된 결과물을 S3에 저장하고 URL로 접근합니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h5>실시간 미리보기</h5>
+                    <p>iframe을 이용해 생성 결과물을 즉시 확인할 수 있습니다.</p>
+                </div>
+                <div class="feature-card">
+                    <h5>프로젝트 관리</h5>
+                    <p>생성된 프로젝트를 관리 및 버전 관리할 수 있습니다.</p>
+                </div>
+            </div>
+
+            <h4>트러블슈팅 및 기술적 도전</h4>
             <ul>
-                <li>AI 프로젝트 생성</li>
-                <li>AWS S3 저장</li>
-                <li>실시간 미리보기</li>
-                <li>프로젝트 관리</li>
+                <li>AI 응답 데이터의 구조가 일정하지 않아 예외 처리 로직을 구현하여 안정성을 확보하였습니다.</li>
+                <li>iframe 기반 실시간 미리보기 기능을 구현하여 사용자 편의성을 제공하였습니다.</li>
+                <li>AWS S3와 연동하여 생성 결과물을 자동 저장하고 URL 기반 접근을 지원합니다.</li>
+                <li>컴포넌트 구조 개선 및 API 호출 최적화로 성능과 유지보수성을 향상시켰습니다.</li>
             </ul>
 
-            <h4>기술적 도전</h4>
-            <ul>
-                <li>AI 응답 데이터 처리</li>
-                <li>iframe 실시간 미리보기</li>
-                <li>S3 연동</li>
-                <li>성능 최적화</li>
-            </ul>
+            <h4>서비스 아키텍처</h4>
+            <div class="architecture">
+                <div class="arch-item">User</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">React + Vite</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">Node.js Server</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">OpenAI API</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">Generated Project</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">AWS S3</div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-item">Preview Service</div>
+            </div>
+
+            <h4>협업 도구</h4>
+            <p>
+                <span class="badge">Git</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">Discord</span>
+                <span class="badge">Notion</span>
+            </p>
+
+            <h4>실행 결과</h4>
+            <p>현재 캡스톤디자인 프로젝트로 개발 진행 중이며 AI 기반 프로젝트 생성 기능과 AWS S3 연동 기능을 구현하였습니다.</p>
         </div>
     </div>
 </section>
@@ -152,12 +267,23 @@
     <h2>Future Goal</h2>
 
     <div class="card goal-card">
-        <p>
-            정보보안 분야 취업을 목표로 하고 있습니다.
-            정보처리기능사, 리눅스마스터 취득과 함께
-            개발 역량과 보안 역량을 갖춘 엔지니어로 성장하는 것이 목표입니다.
-        </p>
-    </div>
+
+<h3>STEP 1</h3>
+<p>정보처리기능사 취득</p>
+
+<h3>STEP 2</h3>
+<p>리눅스마스터 취득</p>
+
+<h3>STEP 3</h3>
+<p>정보보안 분야 취업</p>
+
+<h3>최종 목표</h3>
+<p>
+개발 역량과 보안 역량을 함께 갖춘
+실무형 정보보안 엔지니어로 성장하는 것입니다.
+</p>
+
+</div>
 </section>
 
 <script src="js/script.js"></script>
